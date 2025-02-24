@@ -1,0 +1,117 @@
+<html>
+ <head>
+  <title>
+   Portfolio 
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-gray-800">
+     Portofolio 
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Projects
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-600 hover:text-gray-800" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto px-4 py-8">
+   <section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+     Tentang saya
+    </h2>
+    <div class="flex flex-col md:flex-row items-center">
+     <img alt="Portrait of the developer" class="rounded-full mb-4 md:mb-0 md:mr-6" height="150" src="poto.jpg" width="150"/>
+     <p class="text-gray-700">
+      Halo! Saya seorang pengembang yang bersemangat dengan pengalaman dalam membangun aplikasi web menggunakan teknologi modern. Saya suka membuat antarmuka pengguna yang cantik dan fungsional
+     </p>
+    </div>
+   </section>
+   <section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+     Projects
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-white p-4 rounded shadow">
+      <img alt="Screenshot of Project 1" class="mb-4" height="200" src="todolist.jpg" width="300"/>
+      <h3 class="text-xl font-bold text-gray-800 mb-2">
+       Project 1
+      </h3>
+      <p class="text-gray-700">
+       Memmbuat aplikasi todo list
+      </p>
+     </div>
+     
+    </div>
+   </section>
+   <section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+     Contact
+    </h2>
+    <form class="bg-white p-6 rounded shadow">
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="name">
+       Name
+      </label>
+      <input class="w-full p-2 border border-gray-300 rounded" id="name" placeholder="Your Name" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full p-2 border border-gray-300 rounded" id="email" placeholder="vinaanggellina@gmail.com" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="message">
+       Message
+      </label>
+      <textarea class="w-full p-2 border border-gray-300 rounded" id="message" placeholder="Your Message"></textarea>
+     </div>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" type="submit">
+      Send
+     </button>
+    </form>
+   </section>
+   <section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">
+     Barcode
+    </h2>
+    <div class="flex justify-center">
+     <img alt="Barcode image for scanning" class="rounded" height="200" src="qr.png" width="200"/>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white shadow mt-12">
+   <div class="container mx-auto px-4 py-6 text-center">
+    <p class="text-gray-600">
+     © 2025 Portofolio saya.semua hak di lindungi undang-undang
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
